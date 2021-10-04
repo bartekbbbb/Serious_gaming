@@ -1,0 +1,27 @@
+﻿<Window x:Class="Main_game.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Main_game"
+        mc:Ignorable="d"
+        Title="Treat or Fruit" Height="720" Width="1280" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="Images/icon.ico">
+    <Grid>
+        <Button Grid.Column="0" Content="Graj" Click="Graj_Click" Margin="0,481,840,0" />
+        <Button Content="Wyniki" Click="Wyniki_Click" Margin="424,481,424,0" />
+        <Button Content="Wyjdź" Click="Wyjdz_Click" Margin="840,481,0,0" />
+    </Grid>
+
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="FontSize" Value="110" />
+            <Setter Property="FontFamily" Value="Impact" />
+            <Setter Property="FontStyle" Value="Oblique" />
+            <Setter Property="Background" Value="{x:Null}" />
+        </Style>
+    </Window.Resources>
+
+    <Window.Background>
+        <ImageBrush ImageSource="Images/JPWPlogo.png" />
+    </Window.Background>
+</Window>
