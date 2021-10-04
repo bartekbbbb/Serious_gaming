@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main_game", "JPWP_projekt\Main_game.csproj", "{F4F175CD-7A8D-4771-B709-8A13CA730F02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main_game", "Serious_gaming\Main_game.csproj", "{F4F175CD-7A8D-4771-B709-8A13CA730F02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
